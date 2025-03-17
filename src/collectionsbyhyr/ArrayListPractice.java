@@ -11,8 +11,8 @@ public class ArrayListPractice {
 		System.out.println(all);
 		System.out.println(all.size());
 		all.set(0, 33);
-		System.out.println(all);
-		System.out.println(all.subList(0, all.size()-1));
+		//System.out.println(all);
+		System.out.println(all.subList(0, all.size()));
 	}
 
 }
